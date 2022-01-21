@@ -1,7 +1,7 @@
 app:
   name: AWS IAAS Workload
   code: AWSIAASWORKLOAD
-  notify: skumar@ecloudcontrol.com
+  notify: aborra@ecloudcontrol.com
 
 build:
   version: 2.0
@@ -11,7 +11,7 @@ build:
   image_template: aws_test-2.0
 
 deploy:
-  context: skumarpi/DEV
+  context: anushab7/DEV
   replicas: 1
 
    
